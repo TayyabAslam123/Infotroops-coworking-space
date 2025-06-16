@@ -1,0 +1,52 @@
+.footer {
+   
+    font-size: 16px;
+    line-height: 24px;
+    color: #101014;
+
+    .footer-logo{
+        margin-bottom: 32px;
+    }
+.footer-des{
+    max-width: 400px;
+}
+.footer-menu{
+    padding: 61px 0px;
+    border-top: 1px solid #DADADA;
+    &.danish{
+        .footer-des{
+            max-width: 346px;
+
+        }
+    }
+}
+
+.footer-items{
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    li{
+        margin-bottom: 8px;
+        min-height: 24px;
+    }
+    .footer-link{
+        color: #101014;
+        font-weight: 600;
+        transition: all linear 0.2s;
+        &:hover{
+            color: #0A65DB;
+        }
+        .icon-paperplane-icon{
+            margin-right: 5px;
+        }
+    }
+}
+.copy-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #DADADA;
+    padding: 34px 0 31px;
+}
+
+}
